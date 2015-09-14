@@ -134,6 +134,10 @@ public class Game {
                   modeloLook.setParteSuperior(true);
                   break;
 
+              case 8:
+
+                  break;
+
 
 
           }
