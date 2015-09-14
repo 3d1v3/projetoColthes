@@ -27,7 +27,7 @@ public class Game {
     private ImageView imagem;
     private boolean vestida=true;
     protected ModeloLook modeloLook;
-    //iniciando o git
+    protected String perca;
 
 
     public Game( GridView gridView, Context cont, Button finlizarJogo, ImageView imgem){
