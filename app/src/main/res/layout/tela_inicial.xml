@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ft_cenario">
+
+
+
+    <!-- Linear que contem o placar  -->
+        <LinearLayout
+            android:id="@+id/lytPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:padding="@dimen/padding_small"
+                android:text="@string/lbl_score"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Linear que contem o linear  da personagem e os botoes  -->
+        <LinearLayout
+            android:id="@+id/lytAmbienteFundo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+
+                       <!-- Linear que contem o ambiente com  personagem  -->
+                        <LinearLayout
+                             android:id="@+id/lytAmbientePersonagem"
+                             android:layout_width="wrap_content"
+                             android:layout_height="match_parent"
+                             android:layout_weight="6"
+
+                            >
+
+                            <ImageView
+                                android:id="@+id/img_Modelo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="65dp"
+                                android:layout_marginBottom="30dp"
+
+                                />
+
+                         </LinearLayout>
+
+
+                        <!-- Linear que contem as linhas linhas com os botoes  -->
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:background="@color/background_material_light">
+
+
+
+
+
+                            <GridView
+                                android:layout_width="184dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/gridView"
+                                android:numColumns="auto_fit"
+                                android:columnWidth="80dp"
+                                android:verticalSpacing="8dp"
+                                android:horizontalSpacing="8dp" />
+
+
+                        </LinearLayout>
+
+
+
+
+
+            </LinearLayout><!-- Fim do linear que contem os botoes-->
+
+
+
+
+
+
+
+</LinearLayout>

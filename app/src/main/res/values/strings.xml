@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyRightClothes</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--Painel inicial -->
+    <string name="lbl_score">Score:</string>
+    <string name="lbl_roupa">Roupa</string>
+
+
+    <!-- Array para nomes da fotos-->
+
+    <string-array  name="imagens_ids">
+        <item  >Imagem1 </item>
+
+
+    </string-array>
+
+
+</resources>
