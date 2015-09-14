@@ -24,7 +24,7 @@ public class Calsa extends ModeloLook {
             return this.getPartInferior();
         }
         if(this.isCalsado()) {
-            System.out.println("Calsado");
+            System.out.println("Calsado testando calcado");
             return this.getPartcalsado();
         }
                return 0;
